@@ -1,0 +1,11 @@
+nav-bar {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    z-index: 2;
+}
+
+home {
+    position: relative;
+    top: 72px;
+}

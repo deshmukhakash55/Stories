@@ -1,0 +1,34 @@
+
+.thumbs-button {
+    position: relative;
+    height: 35px;
+    left: 278px;
+    width: 35px;
+}
+
+.thumbs-icons {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.comments-button {
+    position: relative;
+    background-color: black;
+    color: white;
+    height: 35px;
+    left: 239px;
+    width: 35px;
+}
+
+.comments-icons {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+}
+
+.emoji-count {
+    position: relative;
+    top: -6px;
+    padding-left: 15px;
+}

@@ -1,0 +1,16 @@
+<div class="example-form">
+
+    <div class="example-full-width" *ngIf="url">
+        <img class="selected-image" [src]="url">
+    </div>
+
+    <div class="image-input example-full-width">
+        <mat-label class="image-upload-label">Upload Image</mat-label>
+        <input type="file" (change)="selectImage($event)"/>
+    </div>
+
+    <mat-form-field class="example-full-width image-description">
+        <mat-label>Description</mat-label>
+        <textarea matInput placeholder="My first picture" [(ngModel)]="description"></textarea>
+    </mat-form-field>
+</div>

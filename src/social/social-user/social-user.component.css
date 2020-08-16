@@ -1,0 +1,21 @@
+.profile-pic {
+    /* background-image: url('../../assets/profile_pic.jpg'); */
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+    border-width: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.user-name {
+    display: inline-block;
+    vertical-align: sub;
+    margin-left: 15px;
+}
+
+.user-details {
+    padding-top: 8px;
+}

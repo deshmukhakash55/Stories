@@ -1,0 +1,19 @@
+.content-main {
+    margin: 2%;
+}
+
+.content-actions {
+    margin-top: 25px;
+    margin-bottom: 70px;
+    margin-right: 119px;
+    float: right;
+}
+
+img {
+    width: 90%;
+}
+
+.overlay-captions {
+    margin-top: 20px;
+    color: white;
+}

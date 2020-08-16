@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; overflow: hidden; }
+/* width */
+::-webkit-scrollbar {
+width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 5px #adadad; 
+border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #3b3b3b; 
+border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #1c1c1c; 
+}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.wide-viewer-dialog {
+    top: 20px;
+    height: 600px;
+    width: 80%;
+}
+
+.post-overlay .mat-dialog-container{
+    background-color: rgba(36, 36, 36, 0.4);
+    overflow: hidden;
+}
+
+.post-overlay {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.mat-menu-panel {
+    max-width: 100% !important;
+}

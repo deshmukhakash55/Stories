@@ -1,0 +1,47 @@
+mat-card-content img {
+    margin-top: 10px;
+}
+
+.text-content {
+    margin: 10px;
+}
+
+.title-group {
+    position: relative;
+}
+
+.avatar {
+    position: absolute;
+    top: 0;
+    left: -33px;
+}
+
+.writer {
+    position: relative;
+    top: 0;
+    left: 20px;
+}
+
+.card-options {
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+
+.comment-content {
+    word-break: break-word;
+}
+
+.mat-card {
+    background-color: #adadad;
+    opacity: 0.8;
+}
+
+.mat-card:hover {
+    background-color: white;
+    opacity: 1;
+}
+
+.card-content:hover {
+    
+}

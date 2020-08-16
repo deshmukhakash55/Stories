@@ -1,0 +1,18 @@
+<span class="search-box">
+    <input type="text" placeholder="User/Article title/Date"/>
+    <button class="search-button"></button>
+</span>
+<span [class.isOpened]="isHomeOpened() | async">
+    <mat-icon class="nav-icons">home</mat-icon>
+    <span (click)="navigateHome()">Home</span>
+</span>
+<span class="nav-notifications">
+    <nav-notifications></nav-notifications>
+</span>
+<span [class.isOpened]="isSocialOpened() | async">
+    <mat-icon class="nav-icons">people</mat-icon>
+    <span (click)="navigateToSocial()">Social</span>
+</span>
+<span class="profile-pic-options">
+    <profile-pic-options></profile-pic-options>
+</span>

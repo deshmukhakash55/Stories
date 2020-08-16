@@ -1,0 +1,6 @@
+<mat-list>
+    <mat-list-item *ngFor="let follower of followers; last as last">
+       <social-follower [follower]="follower"></social-follower>
+       <mat-divider [inset]="true" *ngIf="!last"></mat-divider>
+    </mat-list-item>
+</mat-list>

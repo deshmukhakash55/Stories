@@ -1,0 +1,9 @@
+.overlay-main {
+    position: relative;
+    right: 11px;
+}
+
+.comment-card {
+    width: 575px;
+    margin-bottom: 10px;
+}

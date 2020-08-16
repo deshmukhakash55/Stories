@@ -1,0 +1,28 @@
+<div>
+    <mat-menu #emojisMenu="matMenu">
+        <button mat-menu-item>
+            <img src="https://img.icons8.com/color/24/000000/shocker-emoji.png"/> 
+            <span class="emoji-count">234</span>
+        </button>
+        <button mat-menu-item>
+            <img src="https://img.icons8.com/color/24/000000/smiling.png"/>
+            <span class="emoji-count">67</span>
+        </button>
+        <button mat-menu-item>
+            <img src="https://img.icons8.com/color/24/000000/like.png"/>
+            <span class="emoji-count">23</span>
+        </button>
+        <button mat-menu-item>
+            <img src="https://img.icons8.com/color/24/000000/wink--v1.png"/>
+            <span class="emoji-count">3</span>
+        </button>
+        <button mat-menu-item>
+            <img src="https://img.icons8.com/color/24/000000/lol--v1.png"/>
+            <span class="emoji-count">0</span>
+        </button>
+    </mat-menu>
+    
+    <button class="thumbs-button" mat-fab color="primary" mat-icon-button [matMenuTriggerFor]="emojisMenu">
+        <mat-icon class="thumbs-icons">thumb_up</mat-icon>
+    </button>
+</div>

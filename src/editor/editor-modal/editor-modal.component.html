@@ -1,0 +1,15 @@
+<div class="modal-header">
+    Create a story
+</div>
+<div *ngIf="!shouldPreview">
+    <editor-input [data]="content" (dataChange)="onContentChange($event)"></editor-input>
+</div>
+<div class="preview-section" *ngIf="shouldPreview">
+    <editor-card-preview [content]="content"></editor-card-preview>
+</div>
+<div class="editor-buttons">
+    <button mat-raised-button (click)="request($event)" color="primary">{{ previewSourceButtonText }}</button>
+    <button mat-raised-button color="accent">Save as Draft</button>
+    <button class="post-button" mat-raised-button>Post</button>
+    <button mat-raised-button (click)="close($event)" color="warn">Cancel</button>
+</div>

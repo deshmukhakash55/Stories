@@ -1,0 +1,27 @@
+.main {
+    position: relative;
+    height: 100%;
+}
+
+.filter-and-cards {
+    height: 100%;
+}
+
+mat-drawer-container {
+    height: 100%;
+}
+
+.side-filters {
+    width: 19%;
+    border-right-width: 0;
+    position: fixed;
+    top: 72px;
+    background-color: #08070d;
+}
+
+.open-editor-button {
+    position: fixed;
+    z-index: 1;
+    bottom: 45px;
+    right: 70px;
+}

@@ -1,0 +1,25 @@
+.close-overlay {
+    float: right;
+}
+
+.nav-buttons {
+    float: left;
+}
+
+.close-button {
+    background: rgba(0,0,0,0);
+    border-width: 0px;
+    color: white;
+}
+
+.arrow-back {
+    background: rgba(0,0,0,0);
+    border-width: 0px;
+    color: white;
+}
+
+.arrow-forward {
+    background: rgba(0,0,0,0);
+    border-width: 0px;
+    color: white;
+}

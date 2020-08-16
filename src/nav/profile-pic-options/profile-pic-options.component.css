@@ -1,0 +1,13 @@
+button {
+    cursor: pointer;
+}
+
+button.options-tigger {
+    background-image: url('../../assets/profile_pic.jpg');
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+    border-width: 0;
+}

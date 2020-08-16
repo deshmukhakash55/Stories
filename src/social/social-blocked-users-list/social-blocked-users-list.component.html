@@ -1,0 +1,6 @@
+<mat-list>
+    <mat-list-item *ngFor="let blockedUser of blockedUsers; last as last">
+       <social-blocked-user [blockedUser]="blockedUser"></social-blocked-user>
+       <mat-divider [inset]="true" *ngIf="!last"></mat-divider>
+    </mat-list-item>
+</mat-list>

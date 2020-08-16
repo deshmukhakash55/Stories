@@ -1,0 +1,19 @@
+.card {
+    margin-top: 20px;
+    margin-right: 45px;
+    margin-bottom: 109px;
+    margin-left: 65px;
+    max-height: 400px;
+    max-width: 400px;
+}
+
+.card-column-first {
+    display: inline-block;
+    width: 50%;
+}
+
+.card-column-last {
+    display: inline-block;
+    width: 50%;
+    position: absolute;
+}
